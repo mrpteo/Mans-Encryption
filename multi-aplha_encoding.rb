@@ -15,29 +15,17 @@ class Encrypt
 
 		random_number = Random.new
 
-		for count in 0..key_strength.to_i
-
-			array_rand = random_number.rand(0..25)
-
-			if $array[count].length != 25
-				$array[count].push([$alphabet[array_rand]])
-			end
-		end
-
-		puts($array)
+		#next job!
 
 	end
 
 	def load_key(input_file)
 		#load previous keyfile, allows for decoding messages
 
-
 	end
 
 
 	def encrypt(string)
-		
-
 		#just to simplify it and make everything lowercase
 		string = string.downcase
 
