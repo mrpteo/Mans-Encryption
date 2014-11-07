@@ -150,15 +150,3 @@ class Encrypt
 		return new_string
 	end
 end
-
-start = Encrypt.new
-
-#encoded_string = start.encrypt("Welcome to my world wont you come on in This is lots of fun")
-#puts(encoded_string)
-#puts(start.decode(encoded_string))
-
-start.load_key("key.txt")
-
-encrypted = start.encrypt("Hey there world, this is my own encryption i've been working on. You should all let me know what you think. The key is randomly generated and will sometimes fail, hence the script needs to be run a number of times to be 100%. No need for public encryptions...")
-puts("\n\n" + encrypted + "\n\n----------------------------------------------------\n\n")
-puts(start.decrypt(encrypted))
