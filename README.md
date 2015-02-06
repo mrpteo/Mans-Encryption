@@ -1,6 +1,4 @@
-Ruby-Encryption (Mans-Encryption)
+Multiple Alphabet Encryption - Ruby Gem
 ===============
 
-Encryption written in Ruby
-
-Currently still in Beta, a flaw with the key generation will occasionally result in un-recoverable data, simply re-run the generate key and it will sort its self out.
+Encryption class made into a Ruby Gem. Multi alphabet encryption works by encrypting data across multiple alphabets to make it more obscure, these alphabets are then saved as a key file so the data can later be recovered.
