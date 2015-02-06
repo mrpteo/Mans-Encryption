@@ -42,6 +42,11 @@ encryption = Encrypt.new
 
 ```
 generate_encryption_key("key_file_location_and_name.txt", 30)
+
+#or
+
+generate_encryption_key("key_file_location_and_name.txt")
+
 ```
   Create a new encryption key, pass 2 parameters. One is the location of your key file and the other is the   strength   aka how many alphabets are used. Note do not include more that your data's length as its just a waste of space.
   
